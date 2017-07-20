@@ -10,7 +10,7 @@ The strategy to solve sudoku using naked twins is as follows: First we find nake
 
 The code snippet below presents the method of implementing constraint  using naked twins. There are two situations we deal with.
 First, naked twins function should take a puzzle and check the current state for naked twins. If there are none, then there is nothing to do.
-![Sudoku|naked_twins](https://cldup.com/kabesP69uK.png)
+![Sudoku|naked_twins](https://cldup.com/tso5DM5XbQ.png)
 
 Search helper function is calling reduce_puzzle properly. We use naked twins as part of the strategy to solve sudoku. In this case, we add a call to naked twins in the same place we call eliminate and only_choice.
 ![Sudoku|reduse_puzzle](https://cldup.com/iSW0QZArzV.png)
